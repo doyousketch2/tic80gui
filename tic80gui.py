@@ -7,6 +7,8 @@
 ##  @ Doyousketch2
 ##  GNU GPLv3                  gnu.org/licenses/gpl-3.0.html
 
+##  sudo apt-get install python3-gi python-gi-dev libgtk-3-dev
+
 """  modules  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"""
 
 import sys                             ##  for exit command
@@ -244,3 +246,4 @@ win .show_all()
 Gtk .main()
 
 """  eof  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"""
+
