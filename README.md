@@ -24,7 +24,8 @@ Requirements:
     `github.com/nesbox/TIC-80`  
     `tic.computer`  
 
-# To execute your Python3 script:  
+To execute your Python3 script:  
+---
 
 - [ ] `./tic80gui.py`  
 - [ ] `python3 -m tic80gui.py`  
