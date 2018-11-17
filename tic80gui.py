@@ -243,8 +243,19 @@ class MainWindow( Gtk .Window ):
             dialog .set_current_folder( folder3 )
 
         file_filter  = Gtk .FileFilter()
-        file_filter .set_name( '*.tic' )
+        file_filter .set_name( 'carts & scripts (*.tic / *.lua)' )
         file_filter .add_pattern( '*.[Tt][Ii][Cc]' )
+        file_filter .add_pattern( '*.[Ll][Uu][Aa]' )
+        dialog .add_filter( file_filter )
+
+        file_filter  = Gtk .FileFilter()
+        file_filter .set_name( 'carts (*.tic)' )
+        file_filter .add_pattern( '*.[Tt][Ii][Cc]' )
+        dialog .add_filter( file_filter )
+
+        file_filter  = Gtk .FileFilter()
+        file_filter .set_name( 'scripts (*.lua)' )
+        file_filter .add_pattern( '*.[Ll][Uu][Aa]' )
         dialog .add_filter( file_filter )
 
         file_filter  = Gtk .FileFilter()
@@ -292,7 +303,11 @@ class MainWindow( Gtk .Window ):
 
 
     def launch_clicked( self,  widget ):
-        commandline  = [ self .tic80,  self .cart ]
+        root, ext  = os .path .splitext( self .cart )
+        if ext .lower() == '.lua':
+            commandline  = [ self .tic80,  '-code',  self.cart ]
+        else:
+            commandline  = [ self .tic80,  self .cart ]
 
         if self .surf_toggle .get_active():
             commandline .append( '-surf' )
@@ -338,7 +353,11 @@ class MainWindow( Gtk .Window ):
 
 
     def launch_pro_clicked( self,  widget ):
-        commandline  = [ self .tic80pro,  self.cart ]
+        root, ext  = os .path .splitext( self .cart )
+        if ext .lower() == '.lua':
+            commandline  = [ self .tic80pro,  '-code',  self.cart ]
+        else:
+            commandline  = [ self .tic80pro,  self.cart ]
 
         if self .surf_toggle .get_active():
             commandline .append( '-surf' )
