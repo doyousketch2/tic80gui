@@ -7,11 +7,21 @@
 ##  @ Doyousketch2
 ##  GNU GPLv3                 gnu.org/licenses/gpl-3.0.html
 
-"""  requirments  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"""
+"""  requirements  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~"""
 
-##  sudo apt-get install python-gi-dev libgtk-3-dev gir1.2-gdkpixbuf-2.0
+##  Linux:
+##  sudo apt-get install libgtk-3-dev python-gi-dev gir1.2-gdkpixbuf-2.0
 
-##  you'll need TIC-80 to get any use out of this little app.
+##  Mac:
+##  macappstore.org/gtk
+##  macappstore.org/gdk-pixbuf
+##  macappstore.org/gobject-introspection
+
+##  Win:
+##  www.gtk.org/download/windows.php
+
+
+##  You'll also need TIC-80 to get any use out of this little app:
 ##  github.com/nesbox/TIC-80
 ##  tic.computer
 
