@@ -4,7 +4,7 @@
 # tic80gui
 Quick little frontend for TIC-80  
 
-`sudo apt-get install python3-gi python-gi-dev libgtk-3-dev`  
+`sudo apt-get install python-gi-dev libgtk-3-dev gir1.2-gdkpixbuf-2.0`  
 
 ![image](https://raw.githubusercontent.com/doyousketch2/tic80gui/master/Screenshot.png)  
 
