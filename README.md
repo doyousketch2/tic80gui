@@ -4,6 +4,11 @@
 # tic80gui
 Quick little frontend for TIC-80  
 
+![image](https://raw.githubusercontent.com/doyousketch2/tic80gui/master/Screenshot.png)  
+
+Requirements:  
+---
+
 - [ ] Linux:  
     `sudo apt-get install libgtk-3-dev python-gi-dev gir1.2-gdkpixbuf-2.0`  
 
@@ -19,7 +24,7 @@ Quick little frontend for TIC-80
     `github.com/nesbox/TIC-80`  
     `tic.computer`  
 
-![image](https://raw.githubusercontent.com/doyousketch2/tic80gui/master/Screenshot.png)  
+# To execute your Python3 script:  
 
 - [ ] `./tic80gui.py`  
 - [ ] `python3 -m tic80gui.py`  
