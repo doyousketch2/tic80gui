@@ -13,9 +13,9 @@ Requirements:
     `sudo apt-get install libgtk-3-dev python-gi-dev gir1.2-gdkpixbuf-2.0`  
 
 - [ ] Mac:  
-    https://macappstore.org/gtk  
-    https://macappstore.org/gdk-pixbuf  
-    https://macappstore.org/gobject-introspection  
+    http://macappstore.org/gtk  
+    http://macappstore.org/gdk-pixbuf  
+    http://macappstore.org/gobject-introspection  
 
 - [ ] Win:  
     https://www.gtk.org/download/windows.php  
