@@ -13,16 +13,16 @@ Requirements:
     `sudo apt-get install libgtk-3-dev python-gi-dev gir1.2-gdkpixbuf-2.0`  
 
 - [ ] Mac:  
-    `macappstore.org/gtk`  
-    `macappstore.org/gdk-pixbuf`  
-    `macappstore.org/gobject-introspection`  
+    https://macappstore.org/gtk  
+    https://macappstore.org/gdk-pixbuf  
+    https://macappstore.org/gobject-introspection  
 
 - [ ] Win:  
-    `www.gtk.org/download/windows.php`  
+    https://www.gtk.org/download/windows.php  
 
 - [x] You'll also need TIC-80 to get any use out of this little app:  
-    `github.com/nesbox/TIC-80`  
-    `tic.computer`  
+    https://github.com/nesbox/TIC-80  
+    https://tic.computer  
 
 To execute your Python3 script:  
 ---
