@@ -30,3 +30,11 @@ To execute your Python3 script:
 - [ ] `./tic80gui.py`  
 - [ ] `python3 -m tic80gui.py`  
 - [ ] `py -3 tic80gui.py`  
+
+**side note:**  
+Many Linux file browsers let you specify custom commands.  
+I believe Thunar, PCManFM, Nautilus, Caja all do.  
+
+You'll want to specify the dir where your tic80 bin is located,  
+but it would be something like this:  
+    `~/Programming/TIC-80/bin/tic80 %f -skip`
