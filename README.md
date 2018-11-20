@@ -31,7 +31,7 @@ To execute your Python3 script:
 - [ ] `python3 -m tic80gui.py`  
 - [ ] `py -3 tic80gui.py`  
 
-**side note:**  
+**side note:**  to quickly open .tic files.  
 Many Linux file browsers let you specify custom commands.  
 I believe Thunar, PCManFM, Nautilus, Caja all do.  
 
