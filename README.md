@@ -6,7 +6,7 @@ Quick little frontend for TIC-80
 
 ![image](https://raw.githubusercontent.com/doyousketch2/tic80gui/master/Screenshot.png)  
 
-Requirements:  
+Requirements:  Python3 and GTK  
 ---
 
 - [ ] Linux:  
@@ -18,6 +18,7 @@ Requirements:
     http://macappstore.org/gobject-introspection  
 
 - [ ] Win:  
+    https://www.python.org/downloads  
     https://www.gtk.org/download/windows.php  
 
 - [x] You'll also need TIC-80 to get any use out of this little app:  
@@ -31,8 +32,10 @@ To execute your Python3 script:
 - [ ] `python3 -m tic80gui.py`  
 - [ ] `py -3 tic80gui.py`  
 
-**side note:**  to quickly open .tic files.  
-Many Linux file browsers let you specify custom commands.  
+---
+
+**side note:**  to quickly open .tic files,  
+many Linux file browsers let you specify custom commands.  
 I believe Thunar, PCManFM, Nautilus, Caja all do.  
 
 You'll want to specify the dir where your tic80 bin is located,  
